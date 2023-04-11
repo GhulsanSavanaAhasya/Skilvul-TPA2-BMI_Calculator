@@ -7,6 +7,9 @@
     <title>BMI Calculator</title>
 
     <!-- Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;700&family=Poppins:wght@100;300;400;700;900&display=swap" rel="stylesheet">
 
 
     <!-- CSS -->
@@ -21,18 +24,18 @@
             <div class="content">
                 <header>
                     <div class="title">
-                        <h1>Calculate Body Mass Index</h1>
+                        <h1>Calculate <span>Body Mass Index</span></h1>
                         <p>Enter your height and weight below to check your BMI results</p>
                     </div>
                 </header>
                 
                 <div>
                     <label for="input-weight">Weight</label>
-                    <input type="number" name="weight" id="input-weight">
+                    <input type="number" name="weight" id="input-weight" placeholder="Input your weight here (KG)">
                 </div>
                 <div>
                     <label for="input-height">Height</label>
-                    <input type="number" name="height" id="input-height">
+                    <input type="number" name="height" id="input-height" placeholder="Input your height here (CM)">
                 </div>
                 <button class="btn-result">Calculate Now</button>
             </div>
