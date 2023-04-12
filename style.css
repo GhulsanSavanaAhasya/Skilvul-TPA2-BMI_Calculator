@@ -14,22 +14,23 @@ html {
     justify-content: center;
     align-content: center;
     color: rgb(87, 97, 107);
+    /* background-color: #252525; */
 }
 
 .wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(245, 241, 238);
+    background-color: rgb(252, 252, 252);
     text-align: center;
-    box-shadow: 0 12px 18px rgb(0, 0, 0, 0.2);
-    border-radius: 20px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.10);
+    border-radius: 8px;
 }
 
 .wrapper img {
     width: 40%;
     height: 100%;
-    border-radius: 20px 0 0 20px;
+    border-radius: 8px 0 0 8px;
     object-fit: cover;
 }
 
@@ -76,5 +77,15 @@ html {
     width: 100%;
     padding: 12px;
     margin-top: 1rem;
+    background-color: rgb(245, 153, 82);
+    border: none;
+    color: rgb(252, 252, 252);
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-result:hover {
+    background-color: rgb(87, 97, 107);
 }
 
