@@ -18,21 +18,19 @@ html {
 
 .wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 4rem;
     background-color: rgb(245, 241, 238);
-    padding: 0 4rem 0 0;
     text-align: center;
     box-shadow: 0 12px 18px rgb(0, 0, 0, 0.2);
     border-radius: 20px;
 }
 
 .wrapper img {
-    width: 400px;
+    width: 40%;
     height: 100%;
     border-radius: 20px 0 0 20px;
-    
+    object-fit: cover;
 }
 
 .title {
@@ -44,11 +42,16 @@ html {
 }
 
 .title h1 span {
-    color: rgb(236, 193, 161);
+    color: rgb(245, 153, 82);
 }
 
 .title p {
     font-weight: 300;
+}
+
+.content {
+    padding: 2rem;
+    margin: auto;
 }
 
 .content label {
@@ -63,10 +66,15 @@ html {
     width: 100%;
     padding: 12px 10px;
     margin-bottom: 1rem;
-    background-color: rgb(218, 200, 190);
+    background-color: transparent;
     outline: none;
-    border: none;
+    border: 1px solid rgba(245, 153, 82, 0.7);
     border-radius: 4px;
-    color: rgb(87, 97, 107);
+}
+
+.btn-result {
+    width: 100%;
+    padding: 12px;
+    margin-top: 1rem;
 }
 
