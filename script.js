@@ -1,5 +1,5 @@
 function checkNum(num) {
-    if(num < 0 || num == 0){
+    if(num == 0 || num <=0){
         return false
     }else {
         return true
@@ -23,5 +23,9 @@ function checkBMI() {
             status = "Obesity"
         }
         document.getElementById("result").innerHTML = "Your BMI is <b>" + BMI + "</b> which means You are <b>"+ status +"</b>";
+    }
+
+    if(checkNum(weight) <= 0 || checkNum(height) <= 0 ){
+        alert("You must enter a number and it cannot be zero or minus!")
     }
 }
