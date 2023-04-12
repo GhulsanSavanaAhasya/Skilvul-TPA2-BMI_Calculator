@@ -28,16 +28,20 @@
                         <p>Enter your height and weight below to check your BMI results</p>
                     </div>
                 </header>
-                
-                <div>
-                    <label for="input-weight">Weight</label>
-                    <input type="number" name="weight" id="input-weight" placeholder="Input your weight here (KG)">
-                </div>
-                <div>
-                    <label for="input-height">Height</label>
-                    <input type="number" name="height" id="input-height" placeholder="Input your height here (CM)">
-                </div>
-                <button class="btn-result">Calculate Now</button>
+                <form action="">
+
+                    <div>
+                        <label for="input-weight">Weight</label>
+                        <input type="number" name="weight" id="input-weight" placeholder="Input your weight here (KG)">
+                    </div>
+                    <div>
+                        <label for="input-height">Height</label>
+                        <input type="number" name="height" id="input-height" placeholder="Input your height here (CM)">
+                    </div>
+                </form>
+                <button onclick="checkBMI()" class="btn-result">Calculate Now</button>
+
+                <div id="result"></div>
             </div>
 
 
