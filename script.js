@@ -19,11 +19,9 @@ function checkBMI() {
             status = "Normal Weight"
         }else if(BMI >=25 && BMI <= 29.9){
             status = "Overweight"
-        }else if(BMI >= 30){
+        }else{
             status = "Obesity"
-        }else {
-            status = "Bruh"
         }
-        document.getElementById("result").innerHTML = "Your BMI is <b>" + BMI + "</b> which means You are <b>" + status + "</b>";
+        document.getElementById("result").innerHTML = "Your BMI is <b>" + BMI + "</b> which means You are <b>"+ status +"</b>";
     }
 }
